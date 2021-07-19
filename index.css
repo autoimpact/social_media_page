@@ -1,0 +1,87 @@
+
+body {
+  /* background: #74dcfc; */
+  background:white;
+  /* background: #0a0c10; */
+  /* background: #161616; */
+}
+
+.navbar-brand, .nav-link {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  margin-top: 5px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDM4NCAzODQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM2OCAxNTQuNjY3OTY5aC0zNTJjLTguODMyMDMxIDAtMTYtNy4xNjc5NjktMTYtMTZzNy4xNjc5NjktMTYgMTYtMTZoMzUyYzguODMyMDMxIDAgMTYgNy4xNjc5NjkgMTYgMTZzLTcuMTY3OTY5IDE2LTE2IDE2em0wIDAiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im0zNjggMzJoLTM1MmMtOC44MzIwMzEgMC0xNi03LjE2Nzk2OS0xNi0xNnM3LjE2Nzk2OS0xNiAxNi0xNmgzNTJjOC44MzIwMzEgMCAxNiA3LjE2Nzk2OSAxNiAxNnMtNy4xNjc5NjkgMTYtMTYgMTZ6bTAgMCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiI+PC9wYXRoPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM2OCAyNzcuMzMyMDMxaC0zNTJjLTguODMyMDMxIDAtMTYtNy4xNjc5NjktMTYtMTZzNy4xNjc5NjktMTYgMTYtMTZoMzUyYzguODMyMDMxIDAgMTYgNy4xNjc5NjkgMTYgMTZzLTcuMTY3OTY5IDE2LTE2IDE2em0wIDAiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD48L2c+PC9zdmc+)
+}
+
+#searchIcon :hover {
+  background: black;
+}
+
+.card-wrap {
+  margin-top: 100px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+.card-img-top {
+  margin-top: 30px;
+  border-radius: 100%;
+  width: 180px;
+}
+
+.card {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  border-radius: 20px 20px 20px 20px;
+  color:#0275d8;
+  border: 0px;
+  /* border: 3px solid #444444; */
+  /* background:#0e1116; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  padding-bottom: 10px;
+}
+
+.btn {
+  margin-right: 5px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.modal-header {
+  background: #0275d8;
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.modal-content {
+  border-radius: 20px 20px 20px 20px;
+  border: 0px;
+}
+
+.modal-body {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-content {
+  margin-left: 10px;
+  text-align: start;
+}
+
+.m-content > p {
+  margin: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.pagination {
+  margin: 50px 0px 50px 0px;
+}
